@@ -1,0 +1,16 @@
+{
+  "name": "fileflow",
+  "version": "2026.11.16-e",
+  "description": "FileFlow — Intelligent Document Solutions. Central de conversão e gerenciamento de documentos 100% no navegador.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "playwright test",
+    "check": "node scripts/check-syntax.js"
+  },
+  "devDependencies": {
+    "@cantoo/pdf-lib": "^2.11.1",
+    "@playwright/test": "1.63",
+    "jszip": "^3.10.1"
+  },
+  "private": true
+}
